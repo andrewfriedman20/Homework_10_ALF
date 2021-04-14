@@ -8,5 +8,14 @@ class engineer extends employee{
         this.jobTitle;
         
     }
-
+    
+    getGit() {
+        return this.githubRepo;
+    }
+    
+    getJob() {
+        return this.jobTitle;
+    }
 }
+
+module.exports = engineer;
