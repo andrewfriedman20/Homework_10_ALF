@@ -9,4 +9,22 @@ class employee {
 
     }
 
+    getName(){
+        return this.name;
+    }
+
+    getID() {
+        return this.id;
+    }
+
+    getEmail() {
+        return this.email;
+    }
+
+    getJob() {
+        return this.jobTitle;
+    }
+
 }
+
+module.exports = employee
