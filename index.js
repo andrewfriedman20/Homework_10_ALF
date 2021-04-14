@@ -49,3 +49,23 @@ function runInquirermanager() {
 
     return inquirer.prompt(arrayPrompts);
 }
+
+function runInquireintern() {
+    const arrayPrompts = [{
+        type: 'input',
+        message: 'Please enter the name of your University',
+        name: 'university'
+    }];
+
+    return inquirer.prompt(arrayPrompts);
+}
+
+function runInquirerengineer() {
+    const arrayPrompts = [{
+        type: 'input',
+        message: 'Please enter your GitHub Repository.',
+        name: 'gitHubRepo'
+    }];
+
+    return inquirer.prompt(arrayPrompts);
+}
