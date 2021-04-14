@@ -69,3 +69,33 @@ function runInquirerengineer() {
 
     return inquirer.prompt(arrayPrompts);
 }
+
+
+
+
+
+var teamArray = [
+    {name: Tom},
+    {name: bobert}
+]
+
+var cards = []
+for (let i = 0; i < teamArray.length; i++) {
+    cards.push(`<h1> Name: ${teamArray[i].name} </h1>`)
+}
+
+var html =`<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'></meta>
+    <title>Document</title>
+
+</head>
+<body>
+    ${cards}
+</body>
+</html>`
+
+return html
