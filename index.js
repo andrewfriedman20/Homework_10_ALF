@@ -48,3 +48,4 @@ function runInquirermanager() {
     }];
 
     return inquirer.prompt(arrayPrompts)
+}
