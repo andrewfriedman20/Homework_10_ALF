@@ -10,4 +10,14 @@ class intern extends intern{
         
     }
 
+
+    getJob() {
+        return this.jobTitle;
+    }
+
+    getUniversity() {
+        return this.university;
+    }
 }
+
+module.exports = intern;
