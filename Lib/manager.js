@@ -9,5 +9,15 @@ class manager extends manager{
         this.jobTitle;
         
     }
+    
+    getJob() {
+        return this.jobTitle;
+    }
+    
+    getOfficeNo() {
+        return this.officeNo;
+    }
 
 }
+
+module.exports = manager;
