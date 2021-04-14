@@ -36,3 +36,15 @@ function runInquirer(){
     return inquirer.prompt(arrayPrompts);
 
 }
+
+
+
+
+function runInquirermanager() {
+    const arrayPrompts = [{
+        type: 'input',
+        message: 'Please enter your office number.'
+        name: 'officeNo'
+    }];
+
+    return inquirer.prompt(arrayPrompts)
