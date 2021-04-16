@@ -12,6 +12,9 @@ const Choices = require("inquirer/lib/objects/choices");
 
 const employeeTypes = ['engineer', 'intern', 'manager']
 
+// const OUTPUT_DIR = path.resolve(__dirname, "output");
+// const outputPath = path.join(OUTPUT_DIR, "fresh.html");
+
 function runInquirer(){
     const arrayPrompts = [{
         type: 'input',
