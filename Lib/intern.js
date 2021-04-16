@@ -11,7 +11,7 @@ class intern extends employee{
     }
 
 
-    getJob() {
+    getjobTitle() {
         return this.jobTitle;
     }
 

@@ -10,11 +10,11 @@ class manager extends employee{
         
     }
     
-    getJob() {
+    getjobTitle() {
         return this.jobTitle;
     }
     
-    getOfficeNo() {
+    getofficeNo() {
         return this.officeNo;
     }
 

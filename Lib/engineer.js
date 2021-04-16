@@ -13,7 +13,7 @@ class engineer extends employee{
         return this.githubRepo;
     }
     
-    getJob() {
+    getjobTitle() {
         return this.jobTitle;
     }
 }

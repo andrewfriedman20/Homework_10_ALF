@@ -21,7 +21,7 @@ class employee {
         return this.email;
     }
 
-    getJob() {
+    getjobTitle() {
         return this.jobTitle;
     }
 
