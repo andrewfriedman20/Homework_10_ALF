@@ -51,3 +51,5 @@ test("May set email using constructor argument", () => {
     expect(e.getjobTitle()).toBe(e.testValue);
 
   });
+
+  // done
