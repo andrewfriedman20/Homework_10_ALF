@@ -45,9 +45,9 @@ test("May set email using constructor argument", () => {
 
   });
   
-  test("getJob() returns \"Employee\"", () => {
+  test("getJob() returns \"employee\"", () => {
     const testValue = "employee";
     const e = new employee("Danimal", 1, "test@test.com");
-    expect(e.getjobTitle()).toBe(testValue);
+    expect(e.getjobTitle()).toBe(e.testValue);
 
   });

@@ -1,6 +1,6 @@
 // internTest.js
 
-const intern=require("../Lib/intern.js");
+const intern = require("../Lib/intern.js");
 
 test("Can set university using constructor", () => {
     const testValue = "Boston College";
