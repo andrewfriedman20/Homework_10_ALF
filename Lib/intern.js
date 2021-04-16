@@ -6,7 +6,7 @@ class intern extends employee{
     constructor(name, id, email, university, jobTitle) {
         super(name, id, email);
         this.university = university;
-        this.jobTitle;
+        this.jobTitle = "intern";
         
     }
 

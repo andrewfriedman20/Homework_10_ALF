@@ -18,9 +18,9 @@ test("getjobTitle() returns \"engineer\"", () => {
   });
 
   test("Can get Git Hub Repo Name using getgitHubRepo()", () => {
-    const testValue = "GitHubUsr";
-    const e = new engineer("Jasper", 1, "test@gmail.com", testValue);
-    expect(e.getgithubRepo()).toBe(e.testValue);
+    const testValue = "Jasper";
+    const e = new engineer("Jasper", 1, "test@gmail.com", testValue, "engineer");
+    expect(e.getGit()).toBe(testValue);
 
   });
   // test/engineer.test.js
